@@ -1,0 +1,27 @@
+{
+  "1": {
+    "question": "Kuidas lisada olemasolevale lepingule uus mõõtepunkt?",
+    "answer": "Kontrolli, et leping on aktiivne ja mõõtepunkt ei ole seotud teise lepinguga.",
+    "steps": "Ava leping; Vali 'Lisa mõõtepunkt'; Sisesta mõõtepunkti ID; Määra alguskuupäev; Salvesta ja kinnita"
+  },
+  "2": {
+    "question": "Kuidas eemaldada mõõtepunkt lepingust?",
+    "answer": "Lõppkuupäev ei tohi olla minevikus.",
+    "steps": "Ava leping; Vali mõõtepunkt; Määra lõppkuupäev; Kinnita eemaldamine"
+  },
+  "3": {
+    "question": "Kuidas muuta mõõtepunkti andmeid?",
+    "answer": "Klienditeenindus saab muuta ainult aadressi ja kontaktandmeid. Muud muudatused vajavad superkasutajat.",
+    "steps": "Ava leping; Vali mõõtepunkt; Muuda andmeid; Salvesta"
+  },
+  "4": {
+    "question": "Kas alguskuupäeva saab tagasiulatuvalt määrata?",
+    "answer": "Tagasiulatuv alguskuupäev ei ole lubatud pärast arveldusperioodi sulgemist.",
+    "steps": "Kontrolli arveldusperioodi; Vali kehtiv alguskuupäev"
+  },
+  "5": {
+    "question": "Millal on vaja superkasutajat?",
+    "answer": "Ainult siis, kui muudatus mõjutab arveldust või mõõtepunkt on seotud teise lepinguga.",
+    "steps": "Kontrolli juhtumi tüüpi; Võta vajadusel ühendust superkasutajaga"
+  }
+}

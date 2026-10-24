@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model KnowledgeItem {
+  id         Int      @id
+  topic      String
+  questionEn String
+  answerEn   String
+  stepsEn    String
+  questionEt String
+  answerEt   String
+  stepsEt    String
+  updatedAt  DateTime @updatedAt
+}
+
+model UsageLog {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  language  String
+  action    String
+  outcome   String
+}

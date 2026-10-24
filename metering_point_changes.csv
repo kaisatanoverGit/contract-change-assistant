@@ -1,0 +1,6 @@
+id,topic,question,answer,steps
+1,Add metering point,How do I add a new metering point to an existing contract?,Check that the contract is active and the metering point is not linked to another contract.,Open contract; Select 'Add metering point'; Enter metering point ID; Set start date; Save and confirm
+2,Remove metering point,How do I remove a metering point from a contract?,The end date must not be in the past.,Open contract; Select metering point; Set end date; Confirm removal
+3,Change metering point,How do I change the details of a metering point?,Only address and contact details can be changed by CS. Other changes need a super user.,Open contract; Select metering point; Edit details; Save
+4,Start date,Can the start date be backdated?,Backdating is not allowed after the billing period has closed.,Check billing period; Choose a valid start date
+5,Super user,When do I need a super user?,Only if the change affects billing or the metering point is linked to another contract.,Check the case type; Contact super user if needed
